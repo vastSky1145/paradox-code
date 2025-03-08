@@ -1,0 +1,165 @@
+﻿kansen_oil = {
+	icon = "kansen_oil.dds"
+	immortal = yes
+	flag = ship_fake_immortal
+	health = 0.5
+	life_expectancy = 15
+	stewardship = 2
+	intrigue = -2
+	dynasty_house_opinion = 20
+	negate_health_penalty_add = 1
+	character_travel_speed = 10
+	character_travel_safety = 10
+    coastal_sea_travel_danger = medium_sea_danger_reduction
+	sea_travel_danger = medium_sea_danger_reduction
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_kansen_oil_desc 
+			} 
+			desc = trait_kansen_oil_character_desc
+		}
+	}
+	group = kansen_core
+	level = 2
+}
+
+mydebug = {
+	icon = "kansen_oil.dds"
+	flag = ship_fake_immortal
+	health = 0.5
+	life_expectancy = 99
+	
+	diplomacy = 999
+	martial = 999
+	stewardship = 999
+	intrigue = 999
+	learning = 999
+	prowess = 999
+	
+	build_speed = -0.99
+	
+	owned_hostile_scheme_success_chance_max_add = 999#阴谋潜力
+	owned_personal_scheme_success_chance_max_add = 999#私人阴谋潜力
+	#vassal_tax_mult = 0.25#封臣赋税
+	army_siege_value_mult = 999#攻城效率
+	movement_speed = 999#行军速度
+	development_growth = 9999#0.1#每月发展度
+	monthly_county_control_growth_add = 9999
+	personal_scheme_phase_duration_add = -999#medium_scheme_phase_duration_bonus_value
+	
+	random_creation_weight = 0
+	
+	dynasty_house_opinion = 99
+	negate_health_penalty_add = 99
+	character_travel_speed = 9999
+	character_travel_safety = 9999
+    coastal_sea_travel_danger = medium_sea_danger_reduction
+	sea_travel_danger = medium_sea_danger_reduction
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_kansen_oil_desc 
+			} 
+			desc = trait_kansen_oil_character_desc
+		}
+	}
+	#group = kansen_core
+	level = 1
+}
+
+mydebug1 = {
+	icon = "kansen_oil.dds"
+	flag = ship_fake_immortal
+	diplomacy = 100
+	martial = 100
+	stewardship = 100
+	intrigue = 100
+	learning = 100
+	prowess = 100
+	random_creation_weight = 0
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_kansen_oil_desc 
+			} 
+			desc = trait_kansen_oil_character_desc
+		}
+	}
+	#group = kansen_core
+	level = 1
+}
+
+kansen_core_test = {
+	icon = "kansen_oil.dds"
+	health = 0.5
+	life_expectancy = 15
+	stewardship = 2
+	intrigue = -2
+	dynasty_house_opinion = 20
+	negate_health_penalty_add = 1
+    
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_kansen_oil_desc 
+			} 
+			desc = trait_kansen_oil_character_desc
+		}
+	}
+	group = kansen_core
+	level = 1
+}
+
+vow_no_marry = {
+	icon = "vow_no_marry.dds"
+	
+	flag = can_not_marry
+    
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = trait_vow_no_marry_desc 
+			} 
+			desc = trait_vow_no_marry_character_desc
+		}
+	}
+}
+
+vow_ring = {
+	icon = "vow_ring.dds"
+	group_equivalence = oathed
+	level = 3
+	diplomacy = 1
+	martial = 1
+	fertility = 0.15
+	health = 0.8 
+	negate_health_penalty_add = 4
+	
+	desc = { 
+		first_valid = { 
+			triggered_desc = { 
+				trigger = { 
+					NOT = { exists = this } 
+				}
+			desc = trait_vow_ring_desc 
+			} 
+			desc = trait_vow_ring_character_desc
+		}
+	}
+}

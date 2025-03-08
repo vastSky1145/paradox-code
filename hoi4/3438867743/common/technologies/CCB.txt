@@ -1,0 +1,14 @@
+technologies = {
+player_CCB_CP = {
+		
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 2200
+		enable_subunits = {
+			CCB_CP
+		}
+	}
+}

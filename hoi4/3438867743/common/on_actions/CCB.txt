@@ -1,0 +1,16 @@
+on_actions = {
+	on_startup = {
+		effect = {
+
+			every_country = {
+				limit = {
+				is_ai = no
+				}
+	set_technology = { player_CCB_CP = 1 }
+			}
+
+
+
+				}
+			}
+			}

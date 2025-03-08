@@ -1,0 +1,1453 @@
+equipment_modules = {
+	ship_light_battery_super = { #轻炮
+		abbreviation = "paa"
+		category = ship_light_battery
+		parent = ship_light_battery_4
+		#parent = ship_light_battery_4_double
+		gfx = disruptor
+
+		add_stats = {
+			lg_attack = 12
+		}
+		add_average_stats = {
+			lg_armor_piercing = 16
+		}
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_battery_double
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	ship_light_battery_super_double = { #二连轻炮
+		abbreviation = "sasd"
+		category = ship_light_battery_double
+		gui_category = ship_light_battery_all
+		parent = ship_light_battery_4_double
+		gfx = disruptor
+		
+		add_stats = {
+			lg_attack = 12
+		}
+		add_average_stats = {
+			lg_armor_piercing = 16
+		}
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_battery_double
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	dp_light_battery_super = { #轻高平
+		abbreviation = "pab"
+		category = dp_light_battery
+		parent = dp_light_battery_4
+		#parent = dp_light_battery_4_single
+		gfx = autocannon
+
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 5
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10
+		}
+		can_convert_from = {
+			module_category = dp_light_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = dp_light_battery_single
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	dp_light_battery_super_single = { #单装轻高平
+		category = dp_light_battery_single
+		gui_category = dp_light_battery_all
+		parent = dp_light_battery_4_single
+		gfx = autocannon
+	
+		add_stats = {
+			lg_attack = 5
+			anti_air_attack = 5
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10
+		}
+		can_convert_from = {
+			module_category = dp_light_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = dp_light_battery_single
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	ship_heavy_battery_super = { #二连重炮
+		abbreviation = "pac"
+		category = ship_heavy_battery
+		parent = ship_heavy_battery_4
+		add_equipment_type = capital_ship
+		gfx = Particle_Lance
+
+		add_stats = {
+			hg_attack = 50
+		}
+		add_average_stats = {
+			max_strength = 30
+			hg_armor_piercing = 80
+		}
+		multiply_stats = {
+			max_strength = 0.3
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_heavy_battery_super_triple = { #三联重炮
+		abbreviation = "pac"
+		category = ship_heavy_battery_triple
+		parent = ship_heavy_battery_4_triple
+		add_equipment_type = capital_ship
+		gfx = energy_lance
+
+		add_stats = {
+			hg_attack = 60
+		}
+		multiply_stats = {
+			max_strength = 0.3
+		}
+		add_average_stats = {
+			max_strength = 25
+			hg_armor_piercing = 80
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery_triple
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_heavy_battery_super_quad = { #四联重炮
+		abbreviation = "pac"
+		category = ship_heavy_battery_quad
+		parent = ship_heavy_battery_4_quad
+		add_equipment_type = capital_ship
+		gfx = arc_emitter
+
+		add_stats = {
+			hg_attack = 60
+		}
+		multiply_stats = {
+			max_strength = 0.3
+		}
+		add_average_stats = {
+			max_strength = 20
+			hg_armor_piercing = 80
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery_quad
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_super_heavy_battery_super = { #超重炮
+		abbreviation = "pac"
+		category = ship_super_heavy_battery
+		parent = ship_super_heavy_battery_1
+		#parent = ship_super_heavy_battery_big_1
+		add_equipment_type = capital_ship
+		gfx = perdition_beam
+
+		add_stats = {
+			hg_attack = 100
+		}
+		multiply_stats = {
+			max_strength = 0.5
+		}
+		add_average_stats = {
+			max_strength = 15
+			hg_armor_piercing = 100
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_battery_triple
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_battery_quad
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_medium_battery_super = { #重巡炮
+		abbreviation = "pad"
+		category = ship_medium_battery
+		gui_category = ship_medium_battery
+		parent = ship_medium_battery_4
+		add_equipment_type = capital_ship
+		gfx = plasma
+
+		add_stats = {
+			hg_attack = 30
+			lg_attack = 30
+			anti_air_attack = 20
+		}
+		multiply_stats = {
+			max_strength = 0.3
+			armor_value = 0.5
+		}
+		add_average_stats = {
+			max_strength = 20
+			hg_armor_piercing = 40
+			lg_armor_piercing = 40
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_heavy_battery
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_medium_battery_super_double = { #二连重巡炮
+		abbreviation = "sasd"
+		category = ship_medium_battery_double
+		gui_category = ship_medium_battery_multi
+		parent = ship_medium_battery_4_double
+		add_equipment_type = capital_ship
+		gfx = plasma
+
+		add_stats = {
+			hg_attack = 30
+			lg_attack = 30
+			anti_air_attack = 20
+		}
+		multiply_stats = {
+			max_strength = 0.3
+			armor_value = 0.5
+		}
+		add_average_stats = {
+			max_strength = 20
+			hg_armor_piercing = 40
+			lg_armor_piercing = 40
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_medium_battery_4_double
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_medium_battery_super_single = { #单装重巡炮
+		category = ship_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		parent = ship_medium_battery_4_single
+		add_equipment_type = capital_ship
+		gfx = plasma
+
+		add_stats = {
+			hg_attack = 30
+			lg_attack = 30
+			anti_air_attack = 20
+		}
+		multiply_stats = {
+			max_strength = 0.3
+			armor_value = 0.5
+		}
+		add_average_stats = {
+			max_strength = 20
+			hg_armor_piercing = 40
+			lg_armor_piercing = 40
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_single
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_medium_battery_3_single
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_medium_heavy_battery_super = { #三联重巡炮
+		category = ship_medium_heavy_battery_triple
+		gui_category = ship_medium_heavy_battery
+		parent = ship_medium_heavy_battery_2
+		add_equipment_type = capital_ship
+		sfx = sfx_ui_sd_module_turret
+		gfx = Particle_Lance
+
+		add_stats = {
+			hg_attack = 60
+			armor_value = 0.3
+		}
+		multiply_stats = {
+			max_strength = 0.3
+			armor_value = 0.5
+		}
+		add_average_stats = {
+			max_strength = 20
+			hg_armor_piercing = 60
+			lg_armor_piercing = 20
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_single
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_medium_battery_3_single
+			convert_cost_ic = 0
+		}
+		forbid_module_categories = {
+			ship_depth_charge
+			ship_mine_layer
+		}
+		dismantle_cost_ic = 0
+
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_light_medium_battery_super = { #轻巡炮
+		abbreviation = "pae"
+		category = ship_light_medium_battery
+		parent = ship_light_medium_battery_4
+		gui_category = ship_light_medium_battery
+		gfx = laser
+
+		add_stats = {
+			lg_attack = 40
+			anti_air_attack = 20
+			naval_light_gun_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			max_strength = 20
+			lg_armor_piercing = 20
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_single
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_light_medium_battery_4
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	ship_light_medium_battery_super_double = { #双联轻巡炮
+		abbreviation = "sbsd"
+		category = ship_light_medium_battery_double
+		gui_category = ship_light_medium_battery_multi
+		parent = ship_light_medium_battery_4_double
+		gfx = laser
+		add_stats = {
+			lg_attack = 40
+			anti_air_attack = 20
+			naval_light_gun_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			max_strength = 20
+			lg_armor_piercing = 20
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_single
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_light_medium_battery_4_double
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	ship_light_medium_battery_super_single = { #单装轻巡炮
+		abbreviation = "sass"
+		category = ship_light_medium_battery_single
+		gui_category = ship_light_medium_battery_single
+		parent = ship_light_medium_battery_4_single
+		gfx = laser
+		add_stats = {
+			lg_attack = 40
+			anti_air_attack = 20
+			naval_light_gun_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			max_strength = 20
+			lg_armor_piercing = 20
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_double
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery_single
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module = ship_light_medium_battery_4_single
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_light_guns }
+		xp_cost = 0
+	}
+	ship_secondaries_super = { #副炮
+		abbreviation = "paf"
+		category = ship_secondaries
+		#gui_category = ship_secondaries
+		parent = ship_secondaries_2
+		gfx = archaeo_mass_driver
+
+		add_stats = {
+			lg_attack = 15
+		}
+		add_average_stats = {
+			lg_armor_piercing = 20
+		}
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_dp_secondaries
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_secondaries }
+		xp_cost = 0
+	}
+	dp_ship_secondaries_super = { #高平副炮
+		abbreviation = "paf"
+		category = ship_dp_secondaries
+		gui_category = ship_secondaries
+		parent = dp_ship_secondaries_4
+		gfx = mass_driver
+
+		add_stats = {
+			lg_attack = 10
+			anti_air_attack = 10
+		}
+		add_average_stats = {
+			lg_armor_piercing = 15
+		}
+		can_convert_from = {
+			module_category = ship_secondaries
+			convert_cost_ic = 0
+		}
+		can_convert_from = {
+			module_category = ship_dp_secondaries
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_secondaries }
+		xp_cost = 0
+	}
+	ship_anti_air_super = { #防空炮
+		abbreviation = "pag"
+		category = ship_anti_air
+		parent = ship_anti_air_4
+		#parent = ship_anti_air_5
+		add_equipment_type = anti_air
+		gfx = flak_batteries
+
+		add_stats = {
+			lg_attack = 12
+			anti_air_attack = 12
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_fire_control_system_super = { #火控
+		abbreviation = "pah"
+		category = ship_fire_control_system
+		parent = ship_fire_control_system_3
+		gfx = computer_role_artillery_precog
+		
+		add_stats = {
+			max_organisation = 25
+			naval_torpedo_hit_chance_factor = 0.4
+			naval_light_gun_hit_chance_factor = 0.4
+			naval_heavy_gun_hit_chance_factor = 0.4
+		}
+		multiply_stats = {
+			hg_attack = 0.5
+			lg_attack = 0.5
+			anti_air_attack = 0.5
+			torpedo_attack = 0.5
+		}
+		can_convert_from = {
+			module_category = ship_fire_control_system
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_sonar_super = { #声呐
+		abbreviation = "pai"
+		category = ship_sonar
+		parent = ship_sonar_3
+		gfx = bio_sensor
+
+		add_stats = {
+			sub_detection = 80
+		}
+		multiply_stats = {
+			naval_torpedo_hit_chance_factor = 0.25
+		}
+		can_convert_from = {
+			module_category = sub_fire_control_system
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_radar_super = { #雷达
+		abbreviation = "pai"
+		category = ship_radar
+		parent = ship_radar_4
+		gfx = tachyon_sensor
+
+		add_stats = {
+			surface_detection = 50
+			sub_detection = 50
+			naval_range=60000
+			reliability=100
+		}
+		multiply_stats = {
+			build_cost_ic = -0.2
+			lg_attack=1000
+			lg_armor_piercing=1000
+			hg_attack=1000
+			hg_armor_piercing=1000
+			torpedo_attack=1000
+			sub_attack=1000
+			anti_air_attack=1000
+			naval_speed=1000
+			max_strength=1000
+			max_organisation=1000
+			naval_light_gun_hit_chance_factor=1000
+			naval_heavy_gun_hit_chance_factor=1000
+			naval_torpedo_hit_chance_factor=1000
+			surface_detection=1000
+			sub_detection=1000
+		}
+		can_convert_from = {
+			module_category = ship_radar
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	light_ship_engine_super = { #驱逐引擎
+		abbreviation = "paj"
+		category = light_ship_engine
+		#parent = light_ship_engine_4_diesel
+		parent = light_ship_engine_4
+		gfx = jump_drive
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.1
+			naval_speed = 0.5
+			naval_range = 0.5
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module_category = light_ship_engine
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	sub_ship_engine_super = { #潜艇引擎
+		abbreviation = "pak"
+		category = sub_ship_engine
+		parent = sub_ship_engine_4
+		gfx = jump_drive
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.2
+			naval_speed = 0.5
+			naval_range = 0.5
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module = sub_ship_engine_3
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	cruiser_ship_engine_super = { #巡洋引擎
+		abbreviation = "pal"
+		category = cruiser_ship_engine
+		parent = cruiser_ship_engine_4
+		gfx = jump_drive
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.1
+			naval_speed = 0.5
+			naval_range = 0.5
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module_category = cruiser_ship_engine
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	heavy_ship_engine_super = { #战列引擎
+		abbreviation = "pam"
+		category = heavy_ship_engine
+		parent = heavy_ship_engine_4
+		gfx = jump_drive
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.1
+			naval_speed = 0.9
+			naval_range = 0.9
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module_category = heavy_ship_engine
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}	
+	carrier_ship_engine_super = { #航母引擎
+		abbreviation = "pan"
+		category = carrier_ship_engine
+		parent = carrier_ship_engine_4
+		gfx = jump_drive
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.1
+			naval_speed = 0.9
+			naval_range = 0.9
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module_category = carrier_ship_engine
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	sub_ship_nuclear_engine_super = {
+		abbreviation = "sbn"
+		category = sub_ship_nuclear_engine
+		sfx = sfx_ui_sd_module_engine
+		gfx = psi_jump_drive
+		parent = sub_ship_nuclear_engine_1
+
+		add_stats = {
+			naval_range = 50000
+			max_strength = 10
+			surface_visibility = -5
+			armor_value = 5
+		}
+		multiply_stats = {
+			fuel_consumption = -1
+			build_cost_ic = -0.2
+			max_strength = 0.1
+			convoy_raiding_coordination = 0.1
+			surface_visibility = -0.1
+			naval_speed = 0.9
+			naval_range = 0.9
+		}
+		build_cost_resources = {
+			steel = -5
+			chromium = -5
+		}
+		can_convert_from = {
+			module_category = sub_ship_nuclear_engine
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_torpedo_super = { #水面鱼雷
+		abbreviation = "pao"
+		category = ship_torpedo
+		parent = ship_torpedo_4
+		gfx = energy_torpedo
+
+		add_stats = {
+			torpedo_attack = 80
+			naval_torpedo_hit_chance_factor = 0.1
+			mines_planting = 2
+			mines_sweeping = 2
+		}
+		multiply_stats = {
+		}
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_torpedoes }
+		xp_cost = 0
+	}
+	ship_torpedo_sub_super = { #潜艇鱼雷
+		abbreviation = "pap"
+		category = ship_torpedo_sub
+		parent = ship_torpedo_sub_nuclear
+		gfx = torpedo
+
+		add_stats = {
+			torpedo_attack = 80
+			naval_torpedo_hit_chance_factor = 0.1
+			mines_planting = 2
+			mines_sweeping = 2
+		}
+		multiply_stats = {
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 0
+		}
+		critical_parts = { damaged_torpedoes }
+		xp_cost = 0
+	}
+	ship_depth_charge_super = { #深水炸弹
+		abbreviation = "paq"
+		category = ship_depth_charge
+		gfx = aura_minefield
+		parent = ship_depth_charge_4
+
+		add_stats = {
+			sub_attack = 80
+			surface_visibility = -5
+			naval_torpedo_enemy_critical_chance_factor = -1
+			naval_torpedo_damage_reduction_factor = 1
+		}
+		multiply_stats = {
+			max_strength = 0.5
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_sub_snorkel_super = { #通气管
+		abbreviation = "par"
+		category = ship_sub_snorkel
+		parent = ship_sub_snorkel_2
+		gfx = cloak_psi
+
+		add_stats = {
+			max_strength = 10
+			sub_visibility = -20
+		}
+		multiply_stats = {
+			sub_visibility = -0.4
+		}
+		can_convert_from = {
+			module_category = ship_sub_snorkel
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_airplane_launcher_super = { #水面飞机发射器
+		abbreviation = "pas"
+		category = ship_airplane_launcher
+		parent = ship_airplane_launcher_2
+		gfx = swarm_strike_craft
+
+		add_stats = {
+			mines_planting = 2
+			mines_sweeping = 2
+			surface_detection = 15
+			sub_detection = 15
+			sub_attack = 15
+		}
+		multiply_stats = {
+		}
+		can_convert_from = {
+			module_category = ship_airplane_launcher
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	sub_airplane_launcher_super = { #水下飞机发射器
+		abbreviation = "pas"
+		category = sub_airplane_launcher
+		parent = sub_airplane_launcher_2
+		gfx = swarm_strike_craft
+
+		add_stats = {
+			mines_planting = 2
+			mines_sweeping = 2
+			surface_detection = 15
+			sub_detection = 15
+			sub_attack = 15
+		}
+		multiply_stats = {
+		}
+		can_convert_from = {
+			module_category = sub_airplane_launcher
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_deck_space_super = { #机库
+		abbreviation = "pat"
+		category = ship_deck_space
+		parent = ship_deck_space
+		gfx = strike_craft_fighter
+
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 10
+			anti_air_attack = 10
+		}
+		multiply_stats = {
+			max_strength = 0.25
+		}
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_bc_super = { #战巡装甲
+		abbreviation = "pav"
+		category = ship_heavy_armor
+		parent = ship_armor_bc_3
+		gfx = dark_matter_shield
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			surface_visibility = -20
+			max_strength = 10
+			armor_value = 50
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_enemy_critical_chance_factor = -0.2
+			naval_torpedo_damage_reduction_factor = 0.2
+			reliability = 0.3
+		}
+		multiply_stats = {
+			max_strength = 0.4
+			naval_speed = 0.1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_bb_super = { #战列装甲
+		abbreviation = "pav"
+		category = ship_heavy_armor
+		parent = ship_armor_bb_3
+		gfx = psi_shield
+		add_equipment_type = capital_ship
+
+		add_stats = {
+			surface_visibility = -10
+			max_strength = 15
+			armor_value = 60
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_enemy_critical_chance_factor = -0.3
+			naval_torpedo_damage_reduction_factor = 0.3
+			reliability = 0.4
+		}
+		multiply_stats = {
+			max_strength = 0.5
+			naval_speed = 0.1
+		}
+		can_convert_from = {
+			module_category = ship_heavy_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_shbb_super = { #超重战列装甲
+		abbreviation = "pav"
+		category = ship_super_heavy_armor
+		parent = ship_armor_shbb
+		gfx = psi_shield
+
+		add_stats = {
+			surface_visibility = -5
+			max_strength = 10
+			armor_value = 70
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_enemy_critical_chance_factor = -0.5
+			naval_torpedo_damage_reduction_factor = 0.5
+			reliability = 0.7
+		}
+		multiply_stats = {
+			max_strength = 0.6
+		}
+		can_convert_from = {
+			module_category = ship_super_heavy_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_scheme_super = { #战列防护方案
+		abbreviation = "sss"
+		category = armor_scheme
+		gfx = aura_hyperlane
+		
+		multiply_stats = {
+			armor_value = 0.3
+			max_strength = 0.3
+		}
+		add_stats = {
+			reliability = 0.3
+		}
+		can_convert_from = {
+			module_category = armor_scheme
+			convert_cost_ic = 0
+		}
+	}
+	ship_torpedo_bulge_super = { #鱼雷挡板
+		abbreviation = "tbs"
+		category = torpedo_defense_system
+		gfx = shield_recharger
+
+		add_stats = {
+			naval_torpedo_enemy_critical_chance_factor = -0.5
+			naval_torpedo_damage_reduction_factor = 0.5
+		}
+		multiply_stats = {
+		}
+		can_convert_from = {
+			module_category = torpedo_defense_system
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_cruiser_super = { #巡洋装甲
+		abbreviation = "paw"
+		category = ship_cruiser_armor
+		parent = ship_armor_cruiser_4
+		gfx = psi_shield
+
+		add_stats = {
+			surface_visibility = -30
+			max_strength = 10
+			armor_value = 20
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_enemy_critical_chance_factor = -0.3
+			naval_torpedo_damage_reduction_factor = 0.3
+			reliability = 0.1
+		}
+		multiply_stats = {
+			max_strength = 0.25
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_cruiser_heavy_super = { #大型巡洋装甲
+		abbreviation = "achs"
+		category = ship_cruiser_heavy_armor
+		parent = ship_armor_cruiser_heavy_4
+		gfx = psi_shield
+
+		add_stats = {
+			surface_visibility = -20
+			max_strength = 10
+			armor_value = 30
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_enemy_critical_chance_factor = -0.4
+			naval_torpedo_damage_reduction_factor = 0.4
+			reliability = 0.2
+		}
+		multiply_stats = {
+			max_strength = 0.25
+		}
+		can_convert_from = {
+			module_category = ship_cruiser_heavy_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_carrier_heavy_super = { #重型航母装甲
+		abbreviation = "achs"
+		category = ship_carrier_armor_heavy
+		gfx = psi_shield
+
+		add_stats = {
+			surface_visibility = -25
+			max_strength = 60
+			armor_value = 30
+			reliability = 0.3
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_damage_reduction_factor = 0.25
+			naval_torpedo_enemy_critical_chance_factor = -0.25
+		}
+		multiply_stats = {
+			anti_air_attack = 0.2
+			max_strength = 0.5
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor_heavy
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	carrier_super_deck = { #甲板方案
+		abbreviation = "csd"
+		category = ship_flight_deck
+		gfx = armor_hardener
+		add_stats = {
+			reliability = 0.5
+			max_strength = 100
+		}
+		multiply_stats = {
+			anti_air_attack = 0.3
+		}
+		can_convert_from = {
+			module_category = carrier_armor_deck
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_carrier_super = { #航母装甲
+		abbreviation = "pax"
+		category = ship_carrier_armor
+		parent = ship_armor_carrier_deck
+		gfx = psi_shield
+
+		add_stats = {
+			surface_visibility = -40
+			max_strength = 60
+			armor_value = 20
+			reliability = 0.25
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_damage_reduction_factor = 0.25
+			naval_torpedo_enemy_critical_chance_factor = -0.25
+		}
+		multiply_stats = {
+			anti_air_attack = 0.5
+			max_strength = 0.4
+		}
+		can_convert_from = {
+			module_category = ship_carrier_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_airplane_super = { #弹射器
+		abbreviation = "sas"
+		category = carrier_side_lift
+		gui_category = modern_carrier_equipments
+		gfx = aura_bombardment
+
+		add_stats = {
+			max_organisation = 0.3
+			carrier_size = 4
+		}
+		multiply_stats = {
+			anti_air_attack = 0.5
+			surface_detection = 0.3
+		}
+		xp_cost = 0
+	}
+	ship_missile_aa_super = { #小型导弹
+		abbreviation = "smas"
+		category = ship_missile_aa
+		gui_category = ship_missile
+		gfx = yellow_crystal_weapon
+		allow_equipment_type = { missile ballistic_missile }
+
+		add_stats = {
+			hg_attack = 60
+			lg_attack = 60
+			anti_air_attack = 60
+			naval_heavy_gun_hit_chance_factor = 0.3
+			naval_light_gun_hit_chance_factor = 0.3
+		}
+		add_average_stats = {
+			hg_armor_piercing = 60
+			lg_armor_piercing = 60
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	ship_missile_super = { #导弹
+		abbreviation = "sms"
+		category = ship_missile
+		gfx = red_crystal_weapon
+		allow_equipment_type = { missile ballistic_missile }
+
+		add_stats = {
+			hg_attack = 80
+			lg_attack = 80
+			anti_air_attack = 80
+			naval_heavy_gun_hit_chance_factor = 0.4
+			naval_light_gun_hit_chance_factor = 0.4
+		}
+		add_average_stats = {
+			hg_armor_piercing = 80
+			lg_armor_piercing = 80
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	pressure_hull_super = { #艇壳
+		abbreviation = "hdd"
+		category = pressure_hull
+		parent = pressure_hull_4
+		gfx = crystal_armor
+
+		add_stats = {
+		}
+		multiply_stats = {
+			max_strength = 0.4
+			sub_visibility = -0.2
+		}
+		xp_cost = 0
+	}
+	ship_anechoic_super = { #消声瓦
+		abbreviation = "sau"
+		category = sub_ship_stealth
+		gfx = cloak_dark_matter
+
+		add_stats = {
+			reliability = 0.1
+		}
+		multiply_stats = {
+			sub_visibility = -0.25
+		}
+		xp_cost = 0
+	}
+	ship_anechoic_tile_super = { #涂层
+		abbreviation = "sau"
+		category = ship_sub_coating
+		gfx = cloak_dark_matter
+		parent = ship_anechoic_tile
+
+		add_stats = {
+			reliability = 0.1
+		}
+		multiply_stats = {
+			sub_visibility = -0.25
+		}
+		xp_cost = 0
+	}
+	sub_ship_periscope_super = { #潜望镜
+		abbreviation = "sps"
+		category = sub_ship_periscope
+		gfx = subspace_sensor
+
+		add_stats = {
+			surface_detection = 30
+		}
+		multiply_stats = {
+			sub_visibility = -0.1
+		}
+		xp_cost = 0
+	}
+	sub_missile_launcher_super = { #潜艇导弹
+		abbreviation = "sml"
+		category = ship_rocket
+		gfx = blue_crystal_weapon
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { missile ballistic_missile }
+
+		add_stats = {
+			hg_attack = 20
+			lg_attack = 20
+			anti_air_attack = 20
+			naval_heavy_gun_hit_chance_factor = 0.1
+			naval_light_gun_hit_chance_factor = 0.1
+		}
+		add_average_stats = {
+			hg_armor_piercing = 20
+			lg_armor_piercing = 20
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	slbm_launcher_super = { #潜艇核导弹
+		abbreviation = "slb"
+		category = ship_nuclear_rocket
+		gfx = green_crystal_weapon
+		add_equipment_type = missile_launcher
+		allow_equipment_type = { nuclear_missile }
+
+		add_stats = {
+			hg_attack = 30
+			lg_attack = 30
+			anti_air_attack = 30
+			naval_heavy_gun_hit_chance_factor = 0.15
+			naval_light_gun_hit_chance_factor = 0.15
+		}
+		add_average_stats = {
+			hg_armor_piercing = 30
+			lg_armor_piercing = 30
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	sub_battery_super = { #潜艇火炮
+		category = sub_battery
+		sfx = sfx_ui_sd_module_turret
+		gfx = scourge_missile
+
+		add_stats = {
+			hg_attack = 10
+			lg_attack = 10
+			naval_heavy_gun_hit_chance_factor = -0.2
+			naval_light_gun_hit_chance_factor = -0.2
+		}
+		multiply_stats = {
+		}
+		add_average_stats = {
+			hg_armor_piercing = 30
+			lg_armor_piercing = 30
+		}
+
+		critical_parts = { damaged_heavy_guns }
+		xp_cost = 0
+	}
+	ship_aura_range = { #杂项
+		category = generic_miscellaneous
+		gui_category = ship_miscellaneous
+		gfx = aura_range
+		multiply_stats = {
+			fuel_consumption = -0.1
+			sub_detection = 0.1
+			naval_speed = 0.1
+			anti_air_attack = 0.1
+			naval_light_gun_hit_chance_factor = 0.15
+			naval_heavy_gun_hit_chance_factor = 0.15
+			naval_torpedo_hit_chance_factor = 0.15
+			hg_attack = 0.1
+			hg_armor_piercing = 0.1
+		}
+		add_stats = {
+		}
+		xp_cost = 0
+	}
+	sub_aura_range = { #潜艇杂项
+		category = submarine_miscellaneous
+		gfx = aura_range
+		multiply_stats = {
+			fuel_consumption = -0.15
+			sub_detection = 0.15
+			naval_speed = 0.15
+			anti_air_attack = 0.15
+			torpedo_attack = 0.15
+			hg_attack = 0.15
+			hg_armor_piercing = 0.15
+		}
+		add_stats = {
+		}
+		xp_cost = 0
+	}
+	carrier_unit_super = { #航母配件1
+		category = carrier_unit
+		gfx = enigmatic_disruption_field
+		add_stats = {
+			carrier_size = 4
+			max_organisation = 0.3
+		}
+		multiply_stats = {
+			anti_air_attack = 0.2
+			surface_detection = 0.2
+			sub_detection = 0.2
+		}
+		xp_cost = 0
+	}
+	carrier_miscellaneous_super = { #航母配件2
+		category = carrier_miscellaneous
+		gfx = shroudborne_shield_suppression
+		add_stats = {
+			max_strength = 200
+			max_organisation = 0.3
+		}
+		multiply_stats = {
+			naval_range = 0.3
+		}
+		xp_cost = 0
+	}
+	super_ship_deck_space = { #冰航母机库
+		abbreviation = "sdb"
+		category = big_ship_deck_space
+		gfx = amoeba_strike_craft
+		parent = big_ship_deck_space
+		add_equipment_type = capital_ship
+
+		mega_carrier = yes
+		add_stats = {
+			carrier_size = 15
+			anti_air_attack = 10
+		}
+		multiply_stats = {
+			max_strength = 0.25
+		}
+		can_convert_from = {
+			module_category = big_ship_deck_space
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+	ship_armor_ice_carrier_deck_super = { #冰航母装甲
+		abbreviation = "sid"
+		category = ship_ice_carrier_armor
+		gfx = psi_shield
+		parent = ship_armor_ice_carrier_deck_3
+
+		add_stats = {
+			surface_visibility = -25
+			max_strength = 60
+			armor_value = 30
+			reliability = 0.3
+			naval_weather_penalty_factor = -0.75
+			naval_torpedo_damage_reduction_factor = 0.25
+			naval_torpedo_enemy_critical_chance_factor = -0.25
+		}
+		multiply_stats = {
+			anti_air_attack = 0.2
+			max_strength = 0.5
+		}
+		can_convert_from = {
+			module_category = ship_ice_carrier_armor
+			convert_cost_ic = 0
+		}
+		xp_cost = 0
+	}
+}

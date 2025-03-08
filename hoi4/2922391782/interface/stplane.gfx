@@ -1,0 +1,66 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_warp_drive_1" #曲速引擎
+		textureFile = "gfx/interface/plane/ship_part_warp_drive_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_warp_drive_2" #曲速引擎
+		textureFile = "gfx/interface/plane/ship_part_warp_drive_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_warp_drive_3" #曲速引擎
+		textureFile = "gfx/interface/plane/ship_part_warp_drive_3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_swarmer_missile_1" #蜂群导弹
+		textureFile = "gfx/interface/plane/ship_part_swarmer_missile_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_swarmer_missile_2" #旋风导弹
+		textureFile = "gfx/interface/plane/ship_part_swarmer_missile_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_nanobot_diffuser" #纳米灾疫
+		textureFile = "gfx/interface/plane/ship_part_nanobot_diffuser.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_neutron_sweep" #中子灭杀
+		textureFile = "gfx/interface/plane/ship_part_neutron_sweep.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_divine_enforcer" #天神裁决
+		textureFile = "gfx/interface/plane/ship_part_divine_enforcer.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_deluge" #天洪浩荡
+		textureFile = "gfx/interface/plane/ship_part_deluge.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_crystal_armor_small" #水晶锻造镀层
+		textureFile = "gfx/interface/plane/ship_part_crystal_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_crystal_armor_medium" #水晶锻造镀层
+		textureFile = "gfx/interface/plane/ship_part_crystal_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_crystal_armor" #水晶锻造镀层
+		textureFile = "gfx/interface/plane/ship_part_crystal_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_enigmatic_decoder" #神秘解码器
+		textureFile = "gfx/interface/plane/ship_part_enigmatic_decoder.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_enigmatic_encoder" #神秘编码器
+		textureFile = "gfx/interface/plane/ship_part_enigmatic_encoder.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_point_defense" #点防御
+		textureFile = "gfx/interface/plane/ship_part_point_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_archaeo_point_defence" #点防御
+		textureFile = "gfx/interface/plane/ship_part_archaeo_point_defence.dds"
+	}
+}

@@ -1,0 +1,82 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_arc_emitter" #聚能电弧发射器
+		textureFile = "gfx/interface/ship/ship_part_arc_emitter.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_extradimensional_weapon" #物质分解器
+		textureFile = "gfx/interface/ship/ship_part_extradimensional_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_dragon_armor" #龙鳞装甲 
+		textureFile = "gfx/interface/ship/ship_part_dragon_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_dark_matter_power_core" #暗物质能源 
+		textureFile = "gfx/interface/ship/ship_part_dark_matter_power_core.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_mass_accelerator_1" #兆级加农炮 
+		textureFile = "gfx/interface/tank/ship_part_mass_accelerator_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_archaeo_mass_accelerator" #加农炮 
+		textureFile = "gfx/interface/tank/ship_part_archaeo_mass_accelerator.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_mass_accelerator_2" #千兆级加农炮 
+		textureFile = "gfx/interface/tank/ship_part_mass_accelerator_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_auto_repair" #再生舰体组织 这些细菌植入了舰体的结构设计,当舰体受损时,它们就会开始尝试修复
+		textureFile = "gfx/interface/ship/ship_part_auto_repair.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_armor_hardener" #活性反应装甲 活性金属细丝对来袭火力作出反应,通过重构自身来抵抗贯穿性武器的火力
+		textureFile = "gfx/interface/ship/ship_part_armor_hardener.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_afterburners" #先进加力燃烧室 
+		textureFile = "gfx/interface/ship/ship_part_afterburners.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_nanite_repair_system" #纳米修复系统 
+		textureFile = "gfx/interface/ship/ship_part_nanite_repair_system.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_reactor_booster" #先进反应堆增压器 
+		textureFile = "gfx/interface/ship/ship_part_reactor_booster.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_shield_hardener" #先进护盾硬化器 
+		textureFile = "gfx/interface/ship/ship_part_shield_hardener.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_thruster" #暗物质推进器 
+		textureFile = "gfx/interface/ship/ship_part_thruster.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_shield_recharger" #护盾电容 储能电容器可用于增强舰船护盾
+		textureFile = "gfx/interface/ship/ship_part_shield_recharger.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_aura_detection_scrambler" #远古目标扰频器
+		textureFile = "gfx/interface/tank/ship_part_aura_detection_scrambler.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_null_void_weapon" #太虚光束
+		textureFile = "gfx/interface/ship/ship_part_null_void_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_energy_lance" #快子光矛
+		textureFile = "gfx/interface/ship/ship_part_energy_lance.dds"
+	}
+	spriteType = {
+		name = "GFX_HvySupport_medium"
+		textureFile = "gfx/interface/ship/HvySupport.dds"
+	}
+	spriteType = {
+		name = "GFX_Pink_medium" 
+		textureFile = "gfx/interface/ship/MANPAD.dds"
+	}
+}

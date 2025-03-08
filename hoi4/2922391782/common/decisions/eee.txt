@@ -1,0 +1,22 @@
+"stella" = {	
+ 	"no_technologies" = {
+    		#fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+		visible = {
+			NOT = { has_tech = no_technology }
+		}
+		available = {
+			always = yes
+		}
+		complete_effect = {
+			set_technology = {
+				no_technology = 1
+			}
+			#army_experience = 100
+			#navy_experience = 100
+		}
+	}
+}

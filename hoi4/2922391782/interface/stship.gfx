@@ -1,0 +1,178 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SMI_arc_emitter" #聚能电弧发射器
+		textureFile = "gfx/interface/ship/ship_part_arc_emitter.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_scourge_missile" #天灾酸爆
+		textureFile = "gfx/interface/ship/ship_part_scourge_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_Particle_Lance" #粒子光矛
+		textureFile = "gfx/interface/ship/ship_part_Particle_Lance.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_shield_recharger" #护盾电容
+		textureFile = "gfx/interface/ship/ship_part_shield_recharger.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_autocannon" #纳米机关炮
+		textureFile = "gfx/interface/ship/ship_part_autocannon.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_disruptor" #相位裂解炮
+		textureFile = "gfx/interface/ship/ship_part_disruptor.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_laser" #伽玛激光
+		textureFile = "gfx/interface/ship/ship_part_laser.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_mass_driver" #高斯炮
+		textureFile = "gfx/interface/ship/ship_part_mass_driver.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_archaeo_mass_driver" #高斯炮
+		textureFile = "gfx/interface/ship/ship_part_archaeo_mass_driver.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_missile" #掠夺者导弹
+		textureFile = "gfx/interface/ship/ship_part_missile.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_perdition_beam" #炼狱射线
+		textureFile = "gfx/interface/ship/ship_part_perdition_beam.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_plasma" #等离子加农炮
+		textureFile = "gfx/interface/ship/ship_part_plasma.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_flak_batteries" #高射炮
+		textureFile = "gfx/interface/ship/ship_part_flak_batteries.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_psi_shield" #灵能护盾
+		textureFile = "gfx/interface/ship/ship_part_psi_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dark_matter_shield" #灵能护盾
+		textureFile = "gfx/interface/ship/ship_part_dark_matter_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_bio_sensor" #生化传感器
+		textureFile = "gfx/interface/ship/ship_part_bio_sensor.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_subspace_sensor" #生化传感器
+		textureFile = "gfx/interface/ship/ship_part_subspace_sensor.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_tachyon_sensor" #快子传感器
+		textureFile = "gfx/interface/ship/ship_part_tachyon_sensor.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_swarm_strike_craft" #虫群舰载机
+		textureFile = "gfx/interface/ship/ship_part_swarm_strike_craft.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_torpedo" #毁灭者鱼雷
+		textureFile = "gfx/interface/ship/ship_part_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_aura_minefield" #废品发射器
+		textureFile = "gfx/interface/ship/ship_part_aura_minefield.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_energy_torpedo" #中子发射器
+		textureFile = "gfx/interface/ship/ship_part_energy_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_jump_drive" #灵能跃迁引擎
+		textureFile = "gfx/interface/ship/ship_part_jump_drive.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_psi_jump_drive" #灵能跃迁引擎
+		textureFile = "gfx/interface/ship/ship_part_psi_jump_drive.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_computer_role_artillery_precog" #预知接口
+		textureFile = "gfx/interface/ship/ship_part_computer_role_artillery_precog.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_strike_craft_fighter" #先进型舰载机库
+		textureFile = "gfx/interface/ship/ship_part_strike_craft_fighter.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_cloak_psi" #灵能相位场发生器
+		textureFile = "gfx/interface/ship/ship_part_cloak_psi.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_cloak_dark_matter" #暗物质相位场发生器
+		textureFile = "gfx/interface/ship/ship_part_cloak_dark_matter.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_aura_bombardment" #军火工厂
+		textureFile = "gfx/interface/ship/ship_part_aura_bombardment.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_aura_hyperlane" #亚空间增强器
+		textureFile = "gfx/interface/ship/ship_part_aura_hyperlane.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_aura_range" #目标获取阵列
+		textureFile = "gfx/interface/ship/ship_part_aura_range.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_enigmatic_disruption_field" #护盾挡板
+		textureFile = "gfx/interface/ship/ship_part_enigmatic_disruption_field.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_shroudborne_shield_suppression" #神秘干扰立场
+		textureFile = "gfx/interface/ship/ship_part_shroudborne_shield_suppression.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_armor_hardener" #活性反应装甲
+		textureFile = "gfx/interface/ship/ship_part_armor_hardener.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_blue_crystal_weapon" #蓝色破片投射器
+		textureFile = "gfx/interface/ship/ship_part_blue_crystal_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_green_crystal_weapon" #绿色破片投射器
+		textureFile = "gfx/interface/ship/ship_part_green_crystal_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_yellow_crystal_weapon" #黄色破片投射器
+		textureFile = "gfx/interface/ship/ship_part_yellow_crystal_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_red_crystal_weapon" #红色破片投射器
+		textureFile = "gfx/interface/ship/ship_part_red_crystal_weapon.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_amoeba_strike_craft" #变形虫鞭毛
+		textureFile = "gfx/interface/ship/ship_part_amoeba_strike_craft.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_crystal_armor" #水晶复合镀层
+		textureFile = "gfx/interface/ship/ship_part_crystal_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_composer_covenant" #生命之织缕
+		textureFile = "gfx/interface/ship/ship_part_composer_covenant.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_eater_covenant" #世界之喰煞
+		textureFile = "gfx/interface/ship/ship_part_eater_covenant.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_instrument_covenant" #渴求之器具
+		textureFile = "gfx/interface/ship/ship_part_instrument_covenant.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_whisperers_covenant" #虚空之低语
+		textureFile = "gfx/interface/ship/ship_part_whisperers_covenant.dds"
+	}
+}

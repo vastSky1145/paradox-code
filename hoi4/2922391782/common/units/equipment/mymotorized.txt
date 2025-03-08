@@ -1,0 +1,13 @@
+equipments = {
+
+
+	motorized_equipment_my = { # Introducing WW1 style trucks
+		year = 1999
+
+		archetype = motorized_equipment
+		priority = 30
+		maximum_speed = 110
+		reliability = 1.65
+		breakthrough = 2			
+	}
+}

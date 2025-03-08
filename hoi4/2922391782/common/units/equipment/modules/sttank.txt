@@ -1,0 +1,355 @@
+equipment_modules = {
+	tank_gas_thruster_engine = { #暗物质引擎
+		abbreviation = "oaa"
+		category = tank_engine_type
+		gfx = thruster
+
+		add_stats = {
+			maximum_speed = 100#10
+			fuel_consumption = 0.05
+			reliability = 5
+		}
+		multiply_stats = {
+			build_cost_ic = 3
+			soft_attack = 1000
+			hard_attack = 1000
+			ap_attack = 1000
+			breakthrough = 1000
+			defense = 1000
+			air_attack = 1000
+			suppression_factor = 1000
+			armor_value = 1000
+		}
+		xp_cost = 0
+	}
+	tank_dragon_armor = { #龙甲
+		abbreviation = "oab"
+		category = tank_armor_type
+		gfx = dragon_armor
+
+		add_stats = {
+			armor_value = 80
+		}
+		multiply_stats = {
+			armor_value = 1
+			hardness = 1
+		}
+		xp_cost = 0
+	}
+	tank_afterburners_suspension = { #先进加力燃烧室
+		abbreviation = "oac"
+		category = tank_suspension_type
+		gfx = afterburners
+		allow_equipment_type = amphibious
+
+		add_stats = {
+		}
+		multiply_stats =  {
+			maximum_speed = 1
+		}
+		xp_cost = 0
+	}
+	tank_AC_null_void_turret = { #太虚光束
+		abbreviation = "oada"
+		category = AC_turret_type
+		gfx = null_void_weapon
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_IFV_null_void_turret = { #太虚光束
+		abbreviation = "oada"
+		category = IFV_turret_type
+		gfx = null_void_weapon
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_MBT_null_void_turret = { #太虚光束
+		abbreviation = "oada"
+		category = MBT_turret_type
+		gfx = null_void_weapon
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_modern_null_void_turret = { #太虚光束
+		abbreviation = "oada"
+		category = tank_modern_turret_type
+		gfx = null_void_weapon
+		parent = tank_modern_tank_turret
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+				tank_heavy_main_armament
+			}
+		}
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_heavy_null_void_turret = { #太虚光束
+		abbreviation = "oadb"
+		category = tank_heavy_turret_type
+		gfx = null_void_weapon
+		parent = tank_heavy_three_man_tank_turret
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_light_main_armament
+				tank_medium_main_armament
+				tank_heavy_main_armament
+			}
+		}
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_medium_null_void_turret = { #太虚光束
+		abbreviation = "oadc"
+		category = tank_medium_turret_type
+		gfx = null_void_weapon
+		parent = tank_medium_three_man_tank_turret
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_light_main_armament
+				tank_medium_main_armament
+			}
+		}
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_light_null_void_turret = { #太虚光束
+		abbreviation = "oadd"
+		category = tank_light_turret_type
+		gfx = null_void_weapon
+		parent = tank_light_three_man_tank_turret
+
+		add_stats = {
+			breakthrough = 100
+			defense = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_mass_accelerator = { #兆级加农炮
+		abbreviation = "oaea"
+		category = tank_small_main_armament
+		allow_equipment_type = flame
+		gfx = mass_accelerator_1
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		xp_cost = 0
+	}
+	tank_mass_accelerator_medium = { #远古饱和剂发射炮
+		abbreviation = "oaea"
+		category = tank_medium_main_armament
+		allow_equipment_type = flame
+		gfx = archaeo_mass_accelerator
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		xp_cost = 0
+	}
+	tank_mass_accelerator_heavy = { #千兆级加农炮
+		abbreviation = "oaea"
+		category = tank_heavy_main_armament
+		allow_equipment_type = flame
+		#sfx = sfx_ui_sd_module_turret
+		gfx = mass_accelerator_2
+		parent = tank_heavy_cannon3
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		xp_cost = 0
+	}
+	aura_detection_scrambler = { #远古目标扰频器
+		abbreviation = "ads"
+		category = tank_radio_module
+		gfx = aura_detection_scrambler
+
+		multiply_stats = {
+			defense = 1
+			breakthrough = 1
+		}
+		xp_cost = 0
+	}
+	nanite_repair_system = { #纳米修复系统
+		abbreviation = "oah"
+		category = tank_special_module
+		gfx = nanite_repair_system
+		allow_equipment_type = {
+			amphibious
+			flame
+			anti_air
+			artillery
+			anti_tank
+		}
+		add_stats = {
+			recon = 2
+			entrenchment = 2
+			fuel_capacity = 50
+			armor_value = 10
+			defense = 5
+			breakthrough = 5
+			soft_attack = 10
+			hard_attack = 10
+			reliability = 0.4
+			fuel_consumption = -0.2
+		}
+		multiply_stats = {
+			build_cost_ic = -0.15
+			night_penalty = -0.33
+			casualty_trickleback = 0.33
+			initiative = 0.33
+			equipment_capture = 0.33
+			experience_loss = -0.33
+			supply_consumption = -0.33
+			soft_attack = 0.1
+			hard_attack = 0.1
+			suppression_factor = 0.1
+		}
+		xp_cost = 0
+	}
+	tank_matter_disintegrator = { #物质分解器(火焰喷射器)
+		abbreviation = "tmd"
+		category = tank_special_module
+		gfx = extradimensional_weapon
+		allow_equipment_type = {
+			amphibious
+			flame
+			anti_air
+			artillery
+			anti_tank
+		}
+		add_stats = {
+			recon = 2
+			entrenchment = 2
+			fuel_capacity = 50
+			armor_value = 10
+			defense = 5
+			breakthrough = 5
+			soft_attack = 10
+			hard_attack = 10
+			reliability = 0.1
+			fuel_consumption = -0.2
+		}
+		multiply_stats = {
+			build_cost_ic = -0.3
+			night_penalty = -0.33
+			casualty_trickleback = 0.33
+			initiative = 0.33
+			equipment_capture = 0.33
+			experience_loss = -0.33
+			supply_consumption = -0.33
+			soft_attack = 0.1
+			hard_attack = 0.1
+			suppression_factor = 0.1
+		}
+		xp_cost = 0
+	}
+	tank_APC_mass_accelerator = { #远古饱和剂发射炮
+		abbreviation = "oaeb"
+		category = apc_armament
+		gfx = archaeo_mass_accelerator
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_AC_mass_accelerator = { #远古饱和剂发射炮
+		abbreviation = "oaeb"
+		category = AC_main_armament
+		gfx = archaeo_mass_accelerator
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_IFV_mass_accelerator = { #远古饱和剂发射炮
+		abbreviation = "oaeb"
+		category = IFV_main_armament
+		gfx = archaeo_mass_accelerator
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+	tank_MBT_mass_accelerator = { #远古饱和剂发射炮
+		abbreviation = "oaeb"
+		category = MBT_main_armament
+		gfx = archaeo_mass_accelerator
+
+		add_stats = {
+			soft_attack = 100
+			hard_attack = 100
+			ap_attack = 400
+			air_attack = 100
+		}
+		multiply_stats = {
+		}
+		xp_cost = 0
+	}
+}

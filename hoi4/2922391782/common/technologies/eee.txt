@@ -1,0 +1,141 @@
+technologies = {
+	no_technology = {
+
+		research_cost = 1
+
+		start_year = 1922
+industrial_capacity_factory = 10000
+	industrial_capacity_dockyard = 10000
+	production_speed_buildings_factor = 50
+	compliance_growth = 10000
+	resistance_growth = -100
+operative_slot=10
+naval_invasion_prep_speed=99
+agency_upgrade_time = -0.9
+intel_network_gain = 10
+local_resources_factor = 10
+fuel_gain_factor_from_states = 100
+
+		enable_equipment_modules = {
+			ship_light_battery_super
+			ship_light_battery_super_double
+			dp_light_battery_super
+			dp_light_battery_super_single
+			ship_heavy_battery_super
+			ship_medium_battery_super
+			ship_medium_battery_super_double
+			ship_medium_battery_super_single
+			ship_medium_heavy_battery_super
+			ship_light_medium_battery_super
+			ship_light_medium_battery_super_double
+			ship_light_medium_battery_super_single
+			ship_secondaries_super
+			dp_ship_secondaries_super
+			ship_anti_air_super
+			ship_fire_control_system_super
+			ship_sonar_super
+			ship_radar_super
+			light_ship_engine_super
+			sub_ship_engine_super
+			cruiser_ship_engine_super
+			heavy_ship_engine_super
+			carrier_ship_engine_super
+			sub_ship_nuclear_engine_super
+			ship_torpedo_super
+			ship_torpedo_sub_super
+			ship_depth_charge_super
+			ship_sub_snorkel_super
+			ship_airplane_launcher_super
+			sub_airplane_launcher_super
+			ship_deck_space_super
+			ship_sonar_super
+			ship_armor_bc_super
+			ship_armor_bb_super
+			ship_armor_cruiser_super
+			carrier_super_deck
+			ship_armor_carrier_super
+			ship_super_heavy_battery_super
+			ship_armor_shbb_super
+			ship_scheme_super
+			ship_torpedo_bulge_super
+			ship_missile_super
+			ship_missile_aa_super
+			ship_heavy_battery_super_triple
+			ship_heavy_battery_super_quad
+			ship_armor_carrier_heavy_super
+			ship_armor_cruiser_heavy_super
+			ship_airplane_super
+			ship_anechoic_super
+			ship_anechoic_tile_super
+			sub_ship_periscope_super
+			sub_missile_launcher_super
+			slbm_launcher_super
+			sub_battery_super
+			ship_aura_range
+			sub_aura_range
+			carrier_unit_super
+			carrier_miscellaneous_super
+			ship_armor_ice_carrier_deck_super
+			super_ship_deck_space
+			pressure_hull_super
+			tank_gas_thruster_engine
+			tank_dragon_armor
+			tank_afterburners_suspension
+			tank_modern_null_void_turret
+			tank_heavy_null_void_turret
+			tank_medium_null_void_turret
+			tank_light_null_void_turret
+			tank_mass_accelerator
+			tank_mass_accelerator_medium
+			tank_mass_accelerator_heavy
+			aura_detection_scrambler
+			shield_hardener
+			nanite_repair_system
+			arc_emitter
+			tank_AC_null_void_turret
+			tank_IFV_null_void_turret
+			tank_MBT_null_void_turret
+			tank_APC_mass_accelerator
+			tank_AC_mass_accelerator
+			tank_IFV_mass_accelerator
+			tank_MBT_mass_accelerator
+			#tank_matter_disintegrator
+			warp_drive_1x
+			warp_drive_2x
+			warp_drive_3x
+			warp_drive_4x
+			warp_drive_6x
+			warp_drive_x
+			dark_warp_drive_1x
+			dark_warp_drive_2x
+			dark_warp_drive_3x
+			dark_warp_drive_4x
+			dark_warp_drive_6x
+			warp_drive_x
+			swarmer_missile_1x
+			swarmer_missile_2x
+			nanobot_diffuser
+			neutron_sweep
+			divine_enforcer
+			deluge_machine
+			crystal_armor_small
+			crystal_armor_medium
+			crystal_armor_large
+			enigmatic_decoder
+			enigmatic_encoder
+			point_defense
+			archaeo_point_defence
+		}
+		enable_equipments = {
+			motorized_equipment_my
+			#light_tank_equipment_my
+		}
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			naval_equipment
+		}
+	}
+}
